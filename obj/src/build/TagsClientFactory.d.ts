@@ -5,5 +5,6 @@ export declare class TagsClientFactory extends Factory {
     static NullClientV1Descriptor: Descriptor;
     static DirectClientV1Descriptor: Descriptor;
     static HttpClientV1Descriptor: Descriptor;
+    static LambdaClientV1Descriptor: Descriptor;
     constructor();
 }
